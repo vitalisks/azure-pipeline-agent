@@ -1,0 +1,14 @@
+version: "2.4"
+services:
+    azure-runner:
+        build:
+            context: .     
+        image: azure-agent:latest   
+        container_name: azure-pipeline-agent
+        volumes: 
+            - agent_work:/home/agent
+
+volumes: 
+    agent_work:
+        driver: local    
+        name: azure_agent        

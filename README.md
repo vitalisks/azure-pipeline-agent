@@ -1,5 +1,5 @@
 # Azure pipeline agent
-Agent for dotnet 2.1, 3.1 and npm builds (node 10.x). This build comparing to [original](https://hub.docker.com/_/microsoft-azure-pipelines-vsts-agent) (~10GB) is more compact and it is possible to customize dependencies for specific needs.
+Agent for .NET Core 2.1, 3.1 and npm builds (node 10.x). This build comparing to [original](https://hub.docker.com/_/microsoft-azure-pipelines-vsts-agent) (~10GB) is more compact and it is possible to customize dependencies for specific needs.
 
 # Usage
 
